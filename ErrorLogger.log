@@ -1,0 +1,333 @@
+CastError: Cast to Number failed for value "NaN" at path "plan_id" for model "plans"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "NaN" at path "plan_id" for model "plans"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phoneNo" for model "friendfamilies"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phoneNo" for model "friendfamilies"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "NaN" at path "plan_id" for model "plans"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NodeDemos\mobiTelBE\mobiTel_BE\node_modules\mongoose\lib\query.js:4454:15)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:54:68)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:54:68)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:54:68)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+ReferenceError: Cannot access 'planId' before initialization
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:54:17)
+    at Layer.handle [as handle_request] (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\layer.js:95:5)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:317:13)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Utilities\requestLogger.js:10:5)
+
+ValidationError: customers validation failed: plan_id: Cast to Number failed for value "6093d393405f2b2d403764a4" at path "plan_id"
+    at model.Document.invalidate (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:2691:32)
+    at model.$set (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:1309:12)
+    at model.$set (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:1013:16)
+    at model.Document (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:4709:15)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3057:22
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3093:7
+    at Array.forEach (<anonymous>)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3092:15
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3027:23)
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:82:44)
+
+ValidationError: customers validation failed: plan_id: Cast to Number failed for value "[ {} ]" at path "plan_id"
+    at model.Document.invalidate (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:2691:32)
+    at model.$set (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:1309:12)
+    at model.$set (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:1013:16)
+    at model.Document (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:4709:15)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3057:22
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3093:7
+    at Array.forEach (<anonymous>)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3092:15
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\index.js:1135:10)
+    at Function.create (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\model.js:3027:23)
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:82:44)
+
+ReferenceError: plan_id is not defined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:57:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+ReferenceError: planId is not defined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:58:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+SyntaxError: Unexpected token p in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:57:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+ReferenceError: plan_id is not defined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:58:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+ReferenceError: plan_id is not defined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:58:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+ReferenceError: plan_id is not defined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:58:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+ReferenceError: plan_id is not defined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:58:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phoneNo" for model "friendfamilies"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phoneNo" for model "friendfamilies"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phoneNo" for model "friendfamilies"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phoneNo" for model "friendfamilies"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+SyntaxError: Unexpected token p in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at parse (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\raw-body\index.js:224:16)
+    at done (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+SyntaxError: Unexpected token p in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at parse (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\raw-body\index.js:224:16)
+    at done (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+CastError: Cast to Number failed for value "undefined" at path "phone_no" for model "customers"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+TypeError: Cannot read property 'planId' of undefined
+    at exports.register (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\Service\mobiTelService.js:114:68)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+CastError: Cast to Number failed for value "undefined" at path "calledBy" for model "callDetails"
+    at model.Query.exec (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4360:21)
+    at model.Query.Query.then (D:\APR21-SEP21\Sessions\Webinar\Node Microservices\NM_Workspace\mobiTelBE_monolithic_01\node_modules\mongoose\lib\query.js:4454:15)
+
